@@ -1,5 +1,5 @@
 public class FizzBuzz {
-    int numero;
+    private int numero;
 
     public FizzBuzz(int numero) {
         this.numero = numero;
@@ -10,28 +10,28 @@ public class FizzBuzz {
         for(int i = 1; i<=number; i++){
             if(i%3==0 && i%5==0){
                 if(i%10==0){
-                    System.out.println(" FizzBuzz");
+                    System.out.println("FizzBuzz\t");
                 }else{
-                    System.out.print(" FizzBuzz");
+                    System.out.print("FizzBuzz    \t");
                 }
 
             }else if(i%3==0){
                 if(i%10==0){
-                    System.out.println(" Fizz");
+                    System.out.println("Fizz\t");
                 }else{
-                    System.out.print(" Fizz");
+                    System.out.print("Fizz        \t");
                 }
             }else if(i%5==0) {
                 if (i % 10 == 0) {
-                    System.out.println(" Buzz");
+                    System.out.println("Buzz\t");
                 } else {
-                    System.out.print(" Buzz");
+                    System.out.print("Buzz        \t");
                 }
             }else{
                 if (i % 10 == 0) {
-                    System.out.println(" "+i);
+                    System.out.println(i);
                 } else {
-                    System.out.print(" "+i);
+                    System.out.print(i+"           \t");
                 }
             }
         }

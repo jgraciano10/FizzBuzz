@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         FizzBuzz fizBuzz = FizzBuzz.fizzBuzz(100);
         System.out.println("");
-        fizBuzz.fizzBuzz(50);
+//        fizBuzz.fizzBuzz(50);
 
     }
 }
